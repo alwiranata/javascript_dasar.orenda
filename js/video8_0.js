@@ -24,3 +24,4 @@ var myFunc = function () {
 }
 var myArr2 = ['aldo', 12, true, myFunc];
 var myArr3 = ['aldo', 12, true, myFunc, [1, 2, 3]];
+console.log(myArr3[4][1])
