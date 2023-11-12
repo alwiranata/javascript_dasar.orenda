@@ -27,7 +27,7 @@
 // }
 
 //Method pada array
-//1.join//memisahkan antara element sapaya rapi
+//1.join//memisahkan antara element array supaya rapi
 // var arr = ['aldo', 'wiranata', '16'];
 // console.log(arr.join(' - '));
 
@@ -43,6 +43,7 @@
 // console.log(arr.join(' - '));
 
 //unshift dan shift
+
 //unshif menamabahkan array paling depan
 // var arr = ['aldo', 'wiranata', '16'];
 // arr.unshift('aldo', '12'); //bisa tambah lebih dari 1
@@ -50,7 +51,7 @@
 
 //shift menghilangkan array paling depan
 var arr = ['aldo', 'wiranata'];
-arr.shift()
+arr.shift()//menghapus 1
 console.log(arr.join(' - '));
 
 
